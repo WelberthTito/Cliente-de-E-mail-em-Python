@@ -2,6 +2,7 @@ from flask import Flask
 from flask_mail import Message, Mail
 
 
+
 app = Flask(__name__)
 
 app.secret_key = ''
