@@ -1,6 +1,6 @@
 from tkinter import *
-
 from sqlalchemy import false
+import app
 
 # Função do login :
 
@@ -11,7 +11,6 @@ def login ():
     if (usuario.get()=="123" and senha.get()=="123"):
         lb["text"] = "Login efetuado com sucesso!"
         import estrutura
-        close_window
     else:
         lb["text"] = "Login inválido!"
 
